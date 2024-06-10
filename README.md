@@ -22,4 +22,11 @@ Para ejecutar este proyecto en tu máquina local, sigue estos pasos:
    source venv/bin/activate # En Windows, usa `venv\Scripts\activate`
    pip install -r requirements.txt
 
+3. Ejecuta el programa:
+   ```bash
+   python3 main.py
 
+## Recomendaciones
+- **Es importante ejecutar los pasos en el orden correcto.**
+- **Asegúrate de tener Python 3.8 o superior instalado en tu máquina.**
+- **Para ejecutar el archivo HTML que genera el programa, simplemente ejecutalo con un navegador.**
