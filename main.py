@@ -3,7 +3,7 @@ import pandas as pd
 import folium
 
 # Datos de ejemplo
-data : dict[str, list[str]] = {
+data : dict[str, list[str | int]] = {
     'Evento': ['Holocausto', 'Genocidio de Ruanda', 'Guerra Civil Española'],
     'Año': [1945, 1994, 1939],
     'Latitud': [52.52, -1.94, 40.42],
