@@ -13,9 +13,9 @@ Para ejecutar este proyecto en tu máquina local, sigue estos pasos:
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/GUPILUAN/Humanidades.git
-   cd Humanidades
-
+   git clone https://github.com/GUPILUAN/humanidades.github.io.git
+   cd humanidades.github.io
+   
 2. Crea un entorno virtual: 
    ```bash
    python3 -m venv venv
