@@ -1,0 +1,72 @@
+{
+    "Evento": [
+        "Descubrimiento de América por Cristóbal Colón",
+        "Primera importación de esclavos africanos a América",
+        "Comienzo de la colonización española en el Caribe",
+        "Establecimiento del sistema de encomienda",
+        "Rebeliones y resistencia de esclavos africanos",
+        "Establecimiento del comercio triangular",
+        "Fundación de la primera ciudad permanente en el continente americano",
+        "Auge del comercio de esclavos en el Atlántico",
+        "Publicación de las Leyes Nuevas",
+        "Abolición de la esclavitud en Haití",
+        "Abolición de la esclavitud en el Imperio Británico",
+        "Abolición de la esclavitud en los Estados Unidos"
+    ],
+    "Año": [
+        1492,
+        1501,
+        1493,
+        1503,
+        1522,
+        1562,
+        1519,
+        1600,
+        1542,
+        1804,
+        1833,
+        1865
+    ],
+    "Latitud": [
+        25.7617,
+        18.1096,
+        18.4663,
+        14.6415,
+        19.4326,
+        51.5074,
+        19.4326,
+        0.0,
+        40.7128,
+        18.9712,
+        51.5099,
+        38.9072
+    ],
+    "Longitud": [
+        -80.1918,
+        -77.2975,
+        -66.1057,
+        -90.5448,
+        -99.1332,
+        -0.1278,
+        -99.1332,
+        0.0,
+        -74.0060,
+        -72.2852,
+        -0.1180,
+        -77.0369
+    ],
+    "Descripcion": [
+        "Cristóbal Colón llega a América, marcando el inicio de la colonización europea.",
+        "Primeros esclavos africanos son llevados a la isla La Española (actualmente Haití y República Dominicana).",
+        "España comienza a establecer colonias en el Caribe, impulsando la demanda de mano de obra esclava.",
+        "Se establece el sistema de encomienda, que obliga a los indígenas a trabajar en condiciones similares a la esclavitud.",
+        "Esclavos africanos comienzan a organizar rebeliones contra sus captores en busca de libertad.",
+        "Inicia el comercio triangular entre Europa, África y América, consolidando el comercio de esclavos africanos.",
+        "Hernán Cortés funda Veracruz, la primera ciudad europea en el continente americano.",
+        "El comercio de esclavos en el Atlántico alcanza su punto máximo, transportando millones de africanos a las Américas.",
+        "Bartolomé de las Casas influye en la promulgación de las Leyes Nuevas para mejorar las condiciones de los indígenas y limitar la esclavitud.",
+        "Haití se convierte en la primera nación independiente de América Latina y el Caribe en abolir la esclavitud.",
+        "El Imperio Británico abole la esclavitud, marcando un hito importante en la lucha contra la esclavitud.",
+        "La esclavitud es abolida en los Estados Unidos tras la Guerra Civil."
+    ]
+}

@@ -1,24 +1,15 @@
-from typing import Any
 import pandas as pd
 import folium
+import json
 
 # Datos de ejemplo
-data : dict[str, list[str | float]] = {
-    'Evento': ['Holocausto', 'Genocidio de Ruanda', 'Guerra Civil Española'],
-    'Año': [1945, 1994, 1939],
-    'Latitud': [52.52, -1.94, 40.42],
-    'Longitud': [13.40, 29.87, -3.70],
-    'Descripcion': [
-        'Genocidio llevado a cabo por el régimen nazi durante la Segunda Guerra Mundial.',
-        'Asesinato masivo de tutsis y hutus moderados por parte de los hutus extremistas.',
-        'Conflicto armado entre republicanos y nacionalistas en España.'
-    ]
-}
+with open("data.json", 'r') as file:
+    data : dict = json.load(file)
 
 df : pd.DataFrame = pd.DataFrame(data)
 
 # Crear un mapa
-map : Any = folium.Map(location=[20, 0], zoom_start=2)
+map : folium.Map = folium.Map(location=[20, 0], zoom_start=2)
 
 # Añadir marcadores para cada evento
 for i, row in df.iterrows():
