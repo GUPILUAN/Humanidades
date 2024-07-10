@@ -20,4 +20,4 @@ for i, row in df.iterrows():
     ).add_to(map)
 
 # Guardar el mapa en un archivo HTML
-map.save('mapa.html')
+map.save('index.html')
